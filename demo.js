@@ -19,7 +19,7 @@ $(function () {
   function updateResultArea() {
     var val1 = getNum1Val();
     var val2 = getNum2Val();
-    var sum = val1 + val2;
+    var sum = parseInt(val1) + parseInt(val2);
     $resultArea.html(val1 + ' + ' + val2 + ' = ' + sum);
   }
 
